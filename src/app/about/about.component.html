@@ -1,0 +1,17 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <span> filter returns the object based on condition</span>
+  <div class="col" *ngFor="let book of carso">
+    <div class="card">
+      <!-- <img src="/assets/book.png" class="card-img-top" alt="..." /> -->
+      <div class="card-body">
+        <h5 class="card-title">{{ book.type }}</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">{{ book.color }}</li>
+        <li class="list-group-item">{{ book.registration }}</li>
+        <li class="list-group-item">${{ book.capacity }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<button type="submit" mat-raised-button color="primary" (click)="back()">Back</button>  

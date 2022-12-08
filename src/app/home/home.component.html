@@ -1,0 +1,18 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let book of cars">
+    <div class="card">
+      <!-- <img src="/assets/book.png" class="card-img-top" alt="..." /> -->
+      <div class="card-body">
+        <h5 class="card-title">{{ book.type }}</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">{{ book.color }}</li>
+        <li class="list-group-item">{{ book.registration }}</li>
+        <li class="list-group-item">${{ book.capacity }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div *ngIf="cars.length>0">
+<button type="submit" mat-raised-button color="primary" (click)="back()">Back</button>  
+</div>

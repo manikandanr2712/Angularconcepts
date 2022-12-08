@@ -1,0 +1,139 @@
+
+[
+    {
+        "id": 1,
+        "name": "at",
+        "description": "The at() method takes an integer value and returns a new String consisting of the single UTF-16 code unit located at the specified offset. This method allows for positive and negative integers. Negative integers count back from the last string character."
+    },
+    {
+        "id": 2,
+        "name": "chatAt",
+        "description": "The String object's charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string."
+    },
+    {
+        "id": 3,
+        "name": "charCodeAt",
+        "description": "The charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index."
+    },
+    {
+        "id": 4,
+        "name": "codePointAt",
+        "description": "The codePointAt() method returns a non-negative integer that is the Unicode code point value at the given position. Note that this function does not give the nth code point in a string, but the code point starting at the specified string index."
+    },
+    {
+        "id": 5,
+        "name": "endswith",
+        "description": "The endsWith() method determines whether a string ends with the characters of a specified string, returning true or false as appropriate."
+    },
+    {
+        "id": 6,
+        "name": "fromCharCode",
+        "description": "The static String.fromCharCode() method returns a string created from the specified sequence of UTF-16 code units."
+    },
+    {
+        "id": 7,
+        "name": "fromCodePoint",
+        "description": "The static String.fromCodePoint() method returns a string created by using the specified sequence of code points."
+    },
+    {
+        "id": 8,
+        "name": "includes",
+        "description": "The includes() method performs a case-sensitive search to determine whether one string may be found within another string, returning true or false as appropriate."
+    },
+    {
+        "id": 9,
+        "name": "indexOf",
+        "description": "The indexOf() method, given one argument: a substring to search for, searches the entire calling string, and returns the index of the first occurrence of the specified substring. Given a second argument: a number, the method returns the first occurrence of the specified substring at an index greater than or equal to the specified number."
+    },
+    {
+        "id": 10,
+        "name": "LastIndexof",
+        "description": "The lastIndexOf() method, given one argument: a substring to search for, searches the entire calling string, and returns the index of the last occurrence of the specified substring. Given a second argument: a number, the method returns the last occurrence of the specified substring at an index less than or equal to the specified number."
+    },
+    {
+        "id": 11,
+        "name": "Match",
+        "description": "The match() method retrieves the result of matching a string against a regular expression. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"
+    },
+    {
+        "id": 12,
+        "name": "Matchall",
+        "description": "The matchAll() method returns an iterator of all results matching a string against a regular expression, including capturing groups."
+    },
+    {
+        "id": 13,
+        "name": "Padend",
+        "description": "The padEnd() method pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string."
+    },
+    {
+        "id": 14,
+        "name": "padStart",
+        "description": "The padStart() method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string."
+    },
+    {
+        "id": 15,
+        "name": "repeat",
+        "description": "The repeat() method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together."
+    },
+    {
+        "id": 16,
+        "name": "replace",
+        "description": "The replace() method returns a new string with one, some, or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function called for each match. If pattern is a string, only the first occurrence will be replaced. The original string is left unchanged."
+    },
+    {
+        "id": 17,
+        "name": "replaceAll",
+        "description": "The replaceAll() method returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. The original string is left unchanged."
+    },
+    {
+        "id": 18,
+        "name": "search",
+        "description": "The search() method executes a search for a match between a regular expression and this String object."
+    },
+    {
+        "id": 19,
+        "name": "slice",
+        "description": "The slice() method extracts a section of a string and returns it as a new string, without modifying the original string."
+    },
+    {
+        "id": 20,
+        "name": "split",
+        "description": "The split() method takes a pattern and divides a String into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array. "
+    },
+    {
+        "id": 21,
+        "name": "startswith",
+        "description": "The startsWith() method determines whether a string begins with the characters of a specified string, returning true or false as appropriate."
+    },
+    {
+        "id": 22,
+        "name": "substring",
+        "description": "The substring() method returns the part of the string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied."
+    },
+    {
+        "id": 23,
+        "name": "toLocaleLowerCase",
+        "description": "The toLocaleLowerCase() method returns the calling string value converted to lower case, according to any locale-specific case mappings."
+    },
+    {
+        "id": 24,
+        "name": "toLocaleUpperCase",
+        "description": "The toLocaleUpperCase() method returns the calling string value converted to upper case, according to any locale-specific case mappings."
+    },
+    {
+        "id": 25,
+        "name": "trim",
+        "description": "The trim() method removes whitespace from both ends of a string and returns a new string, without modifying the original string."
+    },
+    {
+        "id": 26,
+        "name": "trimEnd",
+        "description": "The trimEnd() method removes whitespace from the end of a string and returns a new string, without modifying the original string. trimRight() is an alias of this method."
+    },
+    {
+        "id": 27,
+        "name": "trimStart",
+        "description": "The trimStart() method removes whitespace from the beginning of a string and returns a new string, without modifying the original string. trimLeft() is an alias of this method."
+    }
+    
+]

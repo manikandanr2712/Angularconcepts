@@ -1,0 +1,99 @@
+
+[
+    {
+        "id": 1,
+        "name": "Concat",
+        "description": "The concat() method is used to merge two or more arrays."
+    },
+    {
+        "id": 2,
+        "name": "Filter",
+        "description": "The filter() method is used to return the object wheather the condition passes"
+    },
+    {
+        "id": 3,
+        "name": "Flat",
+        "description": "The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth."
+    },
+    {
+        "id": 4,
+        "name": "flatMap",
+        "description": "The flatMap() method returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level"
+    },
+    {
+        "id": 5,
+        "name": "Map",
+        "description": "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array."
+    },
+    {
+        "id": 6,
+        "name": "slice",
+        "description": "The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified."
+    },
+    {
+        "id": 7,
+        "name": "splice",
+        "description": "The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. To access part of an array without modifying it, see slice()."
+    },
+    {
+        "id": 8,
+        "name": "unShift",
+        "description": "The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array."
+    },
+    {
+        "id": 9,
+        "name": "shift",
+        "description": "The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array."
+    },
+    {
+        "id": 10,
+        "name": "some",
+        "description": "The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array."
+    },
+    {
+        "id": 11,
+        "name": "sort",
+        "description": "The sort() method sorts the elements of an array in place and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.."
+    },
+    {
+        "id": 12,
+        "name": "reduce",
+        "description": "The reduce() method executes a user-supplied reducer callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value."
+    },
+    {
+        "id": 13,
+        "name": "reduceRight",
+        "description": "The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value."
+    },
+    {
+        "id": 14,
+        "name": "push",
+        "description": "The push() method adds one or more elements to the end of an array and returns the new length of the array."
+    },
+    {
+        "id": 15,
+        "name": "pop",
+        "description": "The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array."
+    },
+    {
+        "id": 16,
+        "name": "every",
+        "description": "The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value."
+    },
+    {
+        "id": 17,
+        "name": "fill",
+        "description": "The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array."
+    },
+    {
+        "id": 18,
+        "name": "enteries",
+        "description": "The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array."
+    },
+    {
+        "id": 19,
+        "name": "find",
+        "description": "The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned."
+    }
+    
+]
